@@ -31,5 +31,23 @@ El agente utiliza una estadística para las tres primeras rondas  sobre los movi
 ![img](media/percentage-of-americans-who-chose-rock-paper-or-scissors-v0-0mfued6gvrxa1.webp)
 ![img](media/0ka5828l0er91.webp)
 
+Este tipo de agentes consideran el historial de partidas. Por lo tanto, pueden actuar en un escenario que no se observa por completo (como es en este caso con el agente RPS), teniendo así una visión más completa del mismo.
 
+### 4. Implementación
+Este agente está implementado en Python 3.10.12 y utiliza la librería Pandas. El código fue aportado por el usuario [@dfleta] (https://github.com/dfleta) y modificado para acatar las necesidades de
+este proyecto por [@jesus-fv] (https://github.com/jesus-fv) y por mí. El código se encuentra en mi repositorio de Git (https://github.com/cuernomax2/Rock_Paper_Scissors_IntelligentAgent)
+
+![img](media/model-based-reflex-agent.webp)
+
+### 5. Bibliografía
+
+Lutz, Mark. _Learning Python_. Sebastopol, Ca, O’reilly, 2018.
+
+Martin, Robert C. _Clean Code a Handbook of Agile Software Craftmanship_. Upper Saddle River [Etc.] Prentice Hall, 2010.
+
+Martin, Robert C. _Clean Architecture: A Craftsman’s Guide to Software Structure and Design_. Prentice Hall, 2018.
+
+S. McConnel. _Code Complete: A Practical Handbook of Software Construction_, 2dn Edition. Microsoft Press, 2004.
+
+Russell, Peter. _ARTIFICIAL INTELLIGENCE : A Modern Approach_, Global Edition. S.L., Pearson Education Limited, 2021.
 
