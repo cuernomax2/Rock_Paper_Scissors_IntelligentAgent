@@ -2,11 +2,11 @@
 
 Mateo Manuel González Ulla - IES de Teis - 01/2024
 
-### El problema
+### 1. El problema
 
 Estudio de la solución del juego **piedra, papel, tijeras** a través de un agente inteligente programado en Python
 
-### Contorno de tareas
+### 2. Esquema de tareas
 
 | Contorno de tareas |  Observable  | Agentes | Determinista | Episódico | Estático | Discreto | Conocido |
 | :-----------------: | :----------: | :-----: | :----------: | :--------: | :-------: | :------: | :-------: |
@@ -20,7 +20,7 @@ Estudio de la solución del juego **piedra, papel, tijeras** a través de un age
 * **Discreto:** Las variables a tener en cuenta son limitadas y discretas.
 * **Coñecido:** Sabemos las reglas del juego en todo momento y no cambian.
 
-### Estructura del Agente
+### 3. Estructura del Agente
 
 Una vez se conoce en profundidad el entorno de trabajo del agente, es posible definir con mayor precisión la estructura que este tomará. En este caso se ha optado por utilizar un programa de agente inteligente basado en modelos. 
 
@@ -30,4 +30,6 @@ El agente utiliza una estadística para las tres primeras rondas  sobre los movi
 
 ![img](media/percentage-of-americans-who-chose-rock-paper-or-scissors-v0-0mfued6gvrxa1.webp)
 ![img](media/0ka5828l0er91.webp)
+
+
 
