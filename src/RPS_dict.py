@@ -1,5 +1,6 @@
 import random
 from enum import IntEnum
+import json
 
 
 class GameAction(IntEnum):
@@ -83,17 +84,23 @@ def play_another_round():
 
 
 def main():
-
     while True:
         try:
-            user_action = get_user_action()
+            player1 = get_user_action()
         except ValueError:
             range_str = f"[0, {len(GameAction) - 1}]"
             print(f"Invalid selection. Pick a choice in range {range_str}!")
             continue
 
-        computer_action = get_computer_action()
-        assess_game(user_action, computer_action)
+        player2 = get_computer_action()
+        result = assess_game(player1, player2)
+
+        match_info = {"player1": player1, "player2": player2, "result": result}
+
+        # Save the results to a file
+        with open('../RPS/src/results.json', 'a') as f:
+            json.dump(match_info, f)
+            f.write('\n')
 
         if not play_another_round():
             break
