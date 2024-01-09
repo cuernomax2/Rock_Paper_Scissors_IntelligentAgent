@@ -1,0 +1,14 @@
+{
+    "historial": [
+        {
+            "player1": 1,
+            "player2": 2,
+            "result": 1
+        },
+        {
+            "player1": 1,
+            "player2": 0,
+            "result": 0
+        }
+    ]
+}
