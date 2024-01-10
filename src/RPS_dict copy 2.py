@@ -84,9 +84,35 @@ def predetermined_computer_action(selection_num):
 
         computer_action = GameAction(selection)
         print(f"Computer picked {computer_action.name}.")
+#--------------------------------BROKEN BELOW UNTIL NEXT---------------------------
     else:
-        #Call random selection script get_computer_action()
-        selection = get_computer_action()
+
+        # Path to your JSON file 
+        json_file_path = 'result.json'
+
+        # Read the JSON data 
+        with open(json_file_path, 'r') as file: 
+            data = json.load(file)
+        
+        game_record = data['record']
+        
+        # Resultado última partida
+        for game in game_record:
+            player1 = game['player1']
+            player2 = game['player2']
+            result = game['result']
+
+        if result == 0:
+            computer_action = GameAction(random.randint(0, 1))
+            print(f"Computer picked {computer_action.name}.")
+        else:
+            if player1 == 0:
+                computer_action = GameAction(1)
+            elif player1 == 1:
+                computer_action = GameAction(2)
+            elif player1 == 2:
+                computer_action = GameAction(0)
+            print(f"Computer picked {computer_action.name}.")
 
     return selection
 #-------------------------------------------
