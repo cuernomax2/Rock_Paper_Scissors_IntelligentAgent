@@ -59,7 +59,7 @@ def assess_game(user_action, computer_action):
 
     return game_result
 
-
+#--------------------------------
 def get_computer_action():
     computer_selection = random.randint(0, len(GameAction) - 1)
     computer_action = GameAction(computer_selection)
@@ -67,6 +67,29 @@ def get_computer_action():
 
     return computer_action
 
+def predetermined_computer_action(selection_num):
+    game_chances = [
+        {0: 26, 1: 51, 2: 23},  # Chances of Game 1
+        {0: 36, 1: 36, 2: 28},  # Chances of Game 2
+        {0: 32, 1: 37, 2: 30},  # Chances of Game 3
+    ]
+
+    if selection_num <= 2:
+        # Get the probabilities for the corresponding game
+        probabilities = game_chances[selection_num]
+
+        # Generate a random action based on these probabilities
+        actions, weights = zip(*probabilities.items())
+        selection = random.choices(actions, weights=weights, k=1)[0]
+
+        computer_action = GameAction(selection)
+        print(f"Computer picked {computer_action.name}.")
+    else:
+        #Call random selection script get_computer_action()
+        selection = get_computer_action()
+
+    return selection
+#-------------------------------------------
 
 def get_user_action():
     # Scalable to more options (beyond rock, paper and scissors...)
@@ -74,6 +97,7 @@ def get_user_action():
     game_choices_str = ", ".join(game_choices)
     user_selection = int(input(f"\nPick a choice ({game_choices_str}) --> "))
     user_action = GameAction(user_selection)
+    print(f"You picked {user_action.name}.")
 
     return user_action
 
@@ -86,6 +110,9 @@ def play_another_round():
 
 
 def main():
+
+    selection_num = 0 #variable used to read the selection_map on get_computer_action()
+
     while True:
         try:
             player1 = get_user_action()
@@ -94,17 +121,27 @@ def main():
             print(f"Invalid selection. Pick a choice in range {range_str}!")
             continue
 
-        player2 = get_computer_action()
+        player2 = predetermined_computer_action(selection_num)
         result = assess_game(player1, player2)
+
+        selection_num += 1
 
         match_info = {"player1": player1, "player2": player2, "result": result}
 
+        try:
+            with open('result.json', 'r') as f:
+                match_history = json.load(f)
+        except FileNotFoundError:
+            match_history = {"history": []}
+
+        match_history["history"].append(match_info)
+
         # Save the results to a file
-        with open('../RPS/src/results.json', 'a') as f:
-            json.dump(match_info, f)
-            f.write('\n')
+        with open('result.json', 'w') as f:
+            json.dump(match_history, f, indent=4)
 
         if not play_another_round():
+            print("Thanks for playing :) Goodbye user")
             break
 
 
