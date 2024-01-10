@@ -29,6 +29,9 @@ Una vez se conoce en profundidad el entorno de trabajo del agente, es posible de
 El agente utiliza una estadística para las tres primeras rondas  sobre los movimientos más utilizados por los americanos (véanse las imágenes adjuntas). De este modo se intenta predecir cuál será el primer movimiento del rival y jugar en base a ese resultado, intentando siempre ganar.
 
 ![img](media/percentage-of-americans-who-chose-rock-paper-or-scissors-v0-0mfued6gvrxa1.webp)
+
+Por el momento a fecha 10/01/2023 la primera parte del modelo modelo está implementada correctamente (véase la imagen superior) con respecto a las tres primeras partidas de cada sesión. La segunda parte del modelo está todavía en desarrollo (véase la imagen inferior)
+
 ![img](media/0ka5828l0er91.webp)
 
 Este tipo de agentes consideran el historial de partidas. Por lo tanto, pueden actuar en un escenario que no se observa por completo (como es en este caso con el agente RPS), teniendo así una visión más completa del mismo.
