@@ -1,294 +1,88 @@
 {
     "history": [
         {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
+            "game number": 1,
             "player1": 0,
             "player2": 0,
             "result": 2
         },
         {
+            "game number": 2,
             "player1": 0,
             "player2": 1,
             "result": 1
         },
         {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 2,
-            "player2": 2,
-            "result": 2
-        },
-        {
+            "game number": 3,
             "player1": 0,
             "player2": 2,
             "result": 0
         },
         {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 2,
-            "player2": 2,
-            "result": 2
-        },
-        {
+            "game number": 1,
             "player1": 2,
             "player2": 1,
             "result": 0
         },
         {
-            "player1": 0,
-            "player2": 2,
-            "result": 0
-        },
-        {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 0,
+            "game number": 2,
+            "player1": 1,
             "player2": 0,
-            "result": 2
-        },
-        {
-            "player1": 0,
-            "player2": 2,
             "result": 0
         },
         {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 0,
-            "player2": 2,
-            "result": 0
-        },
-        {
-            "player1": 0,
-            "player2": 2,
-            "result": 0
-        },
-        {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 0,
-            "player2": 0,
-            "result": 2
-        },
-        {
-            "player1": 0,
-            "player2": 2,
-            "result": 0
-        },
-        {
-            "player1": 0,
-            "player2": 0,
-            "result": 2
-        },
-        {
+            "game number": 3,
             "player1": 2,
             "player2": 1,
             "result": 0
         },
         {
-            "player1": 2,
-            "player2": 0,
-            "result": 1
-        },
-        {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 2,
-            "player2": 2,
-            "result": 2
-        },
-        {
+            "game number": 4,
             "player1": 0,
             "player2": 0,
             "result": 2
         },
         {
+            "game number": 5,
             "player1": 0,
             "player2": 2,
             "result": 0
         },
         {
-            "player1": 0,
-            "player2": 0,
+            "game number": 6,
+            "player1": 1,
+            "player2": 1,
             "result": 2
         },
         {
-            "player1": 0,
-            "player2": 0,
-            "result": 2
-        },
-        {
+            "game number": 1,
             "player1": 0,
             "player2": 1,
             "result": 1
         },
         {
+            "game number": 1,
             "player1": 0,
             "player2": 2,
             "result": 0
         },
         {
-            "player1": 0,
+            "game number": 2,
+            "player1": 1,
             "player2": 0,
-            "result": 2
-        },
-        {
-            "player1": 0,
-            "player2": 0,
-            "result": 2
-        },
-        {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 0,
-            "player2": 2,
             "result": 0
         },
         {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 0,
-            "player2": 2,
-            "result": 0
-        },
-        {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 0,
-            "player2": 2,
-            "result": 0
-        },
-        {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 0,
+            "game number": 3,
+            "player1": 1,
             "player2": 0,
-            "result": 2
-        },
-        {
-            "player1": 0,
-            "player2": 2,
             "result": 0
         },
         {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 0,
+            "game number": 4,
+            "player1": 1,
             "player2": 2,
-            "result": 0
-        },
-        {
-            "player1": 0,
-            "player2": 2,
-            "result": 0
-        },
-        {
-            "player1": 0,
-            "player2": 0,
-            "result": 2
-        },
-        {
-            "player1": 0,
-            "player2": 0,
-            "result": 2
-        },
-        {
-            "player1": 0,
-            "player2": 1,
             "result": 1
-        },
-        {
-            "player1": 0,
-            "player2": 0,
-            "result": 2
-        },
-        {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 0,
-            "player2": 1,
-            "result": 1
-        },
-        {
-            "player1": 0,
-            "player2": 0,
-            "result": 2
-        },
-        {
-            "player1": 0,
-            "player2": 2,
-            "result": 0
         }
     ]
 }
