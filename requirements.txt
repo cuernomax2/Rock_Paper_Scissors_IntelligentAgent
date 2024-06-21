@@ -4,6 +4,10 @@
 #
 #    pip-compile requirements.in
 #
+numpy==1.26.4
+
+pandas==2.2.2
+
 colorama==0.4.6
     # via pytest
 exceptiongroup==1.2.0
