@@ -43,6 +43,34 @@ este proyecto por [@jesus-fv](https://github.com/jesus-fv) y por mí. El código
 
 Para poder utilizar este script, será necesario descargar el repo completo mediante ``` git clone https://github.com/cuernomax2/Rock_Paper_Scissors_IntelligentAgent/ ```. Después, en una teminal, situarse en la carpeta "src" (``` cd ./src ```) y lanzar el comando ``` python RPS_dict.py ```
 
+1. Creamos un directorio y nos situamos en él
+```
+mkdir RPS
+cd RPS
+```
+
+2. Clonamos el proyecto
+```
+git clone https://github.com/cuernomax2/Rock_Paper_Scissors_IntelligentAgent/
+```
+
+3. Creamos un entorno virtual con python 3.12 y lo activamos
+```
+conda create --name RPS python=3.12
+conda activate RPS
+```
+
+4. Instalamos el requirements.txt 
+```
+conda install --file requirements.txt
+```  
+
+5. Accedemos a la carpeta src y ejecutamos el script
+```
+cd src
+python RPS_dict.py
+```
+
 ### 6. Bibliografía
 
 Lutz, Mark. _Learning Python_. Sebastopol, Ca, O’reilly, 2018.
