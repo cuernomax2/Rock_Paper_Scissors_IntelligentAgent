@@ -39,9 +39,9 @@ este proyecto por [@jesus-fv](https://github.com/jesus-fv) y por mí. El código
 
 ![img](media/model-based-reflex-agent.webp)
 
-### 5. Utilización
+### 5. Instalación y uso
 
-Para poder utilizar este script, será necesario descargar el repo completo mediante ``` git clone https://github.com/cuernomax2/Rock_Paper_Scissors_IntelligentAgent/ ``` . Después, en una teminal, situarse en la carpeta "src" y lanzar el comando ``` python RPS_dict.py ```
+Para poder utilizar este script, será necesario descargar el repo completo mediante ``` git clone https://github.com/cuernomax2/Rock_Paper_Scissors_IntelligentAgent/ ```. Después, en una teminal, situarse en la carpeta "src" (``` cd ./src ```) y lanzar el comando ``` python RPS_dict.py ```
 
 ### 6. Bibliografía
 
