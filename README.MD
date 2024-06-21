@@ -34,7 +34,7 @@ El agente utiliza una estadística para las tres primeras rondas  sobre los movi
 Este tipo de agentes consideran el historial de partidas. Por lo tanto, pueden actuar en un escenario que no se observa por completo (como es en este caso con el agente RPS), teniendo así una visión más completa del mismo.
 
 ### 4. Implementación
-Este agente está implementado en Python 3.10.12 y utiliza la librería Pandas. El código fue aportado por el usuario [@dfleta](https://github.com/dfleta) y modificado para acatar las necesidades de
+Este agente está implementado en Python 3.10.12. El código fue aportado por el usuario [@dfleta](https://github.com/dfleta) y modificado para acatar las necesidades de
 este proyecto por [@jesus-fv](https://github.com/jesus-fv) y por mí. El código se encuentra en mi repositorio de Git (https://github.com/cuernomax2/Rock_Paper_Scissors_IntelligentAgent)
 
 ![img](media/model-based-reflex-agent.webp)
